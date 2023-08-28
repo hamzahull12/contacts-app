@@ -3,6 +3,7 @@ import ContactItemBody from './ContactItemBody';
 import ContactItemImage from './ContactItemImage';
 import DeleteButton from './DeleteButton';
 
+
 function ContactItem({ imageUrl, name, tag, id, onDelete }) {
  return (
    <div className="contact-item">
@@ -12,5 +13,7 @@ function ContactItem({ imageUrl, name, tag, id, onDelete }) {
    </div>
  );
 }
+
+
 
 export default ContactItem;
