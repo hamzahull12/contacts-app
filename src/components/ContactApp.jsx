@@ -47,5 +47,4 @@ class ContactApp extends React.Component {
     );
   }
 }
-
 export default ContactApp;
